@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info Tracker</title>
+
+    <link rel="stylesheet" href="style/style.css">
+
+
+</head>
+
+<body>
+
+    <h1> Info Tracker </h1>
+
+
+    <label for="submitInput">Submit:</label>
+    <input type="text" id="FirstName" placeholder="First Name">
+    <input type="text" id="LastName" placeholder="Last Name">
+    <input type="text" id="Job" placeholder="Job">
+    <input type="text" id="Skills" placeholder="Skills, seperate by comma">
+    <button onclick="formSubmit()">Submit</button>
+
+
+    <h2> Survey Participants</h2>
+    <div id="info_container" class="info-container"></div>
+    <script src="app/submit.js"></script>
+
+</body>
+
+</html>
